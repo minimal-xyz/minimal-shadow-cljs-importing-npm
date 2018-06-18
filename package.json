@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "html": "mkdir -p target/; cp entry/index.html target/"
+  },
+  "dependencies": {
+    "dayjs": "^1.6.9",
+    "lodash": "^4.17.10",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.4.5"
+  },
+  "name": "minimal-shadow-cljs-importing-npm",
+  "description": "",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT"
+}

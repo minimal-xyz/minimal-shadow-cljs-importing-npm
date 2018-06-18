@@ -1,0 +1,9 @@
+
+{:source-paths ["src"]
+ :builds {:client {:output-dir "target/"
+                   :asset-path "./"
+                   :target :browser
+                   :modules {:client {:entries [app.main]}}
+                   :devtools {:after-load app.main/reload!
+                              :http-root "target"
+                              :http-port 8080}}}}
