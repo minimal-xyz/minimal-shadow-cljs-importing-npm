@@ -2,3 +2,4 @@
 node_modules/
 .shadow-cljs/
 target/
+.nrepl-port
