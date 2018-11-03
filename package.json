@@ -3,12 +3,12 @@
     "html": "mkdir -p target/; cp entry/index.html target/"
   },
   "dependencies": {
-    "dayjs": "^1.6.9",
-    "lodash": "^4.17.10",
-    "shortid": "^2.2.8"
+    "dayjs": "^1.7.7",
+    "lodash": "^4.17.11",
+    "shortid": "^2.2.13"
   },
   "devDependencies": {
-    "shadow-cljs": "^2.4.5"
+    "shadow-cljs": "^2.6.23"
   },
   "name": "minimal-shadow-cljs-importing-npm",
   "description": "",

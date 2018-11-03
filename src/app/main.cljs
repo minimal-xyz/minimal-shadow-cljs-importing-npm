@@ -14,5 +14,3 @@
 (defn reload! []
   (main!)
   (println "Reloaded!"))
-
-(.addEventListener js/window "load" main!)
